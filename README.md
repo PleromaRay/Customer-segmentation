@@ -2,7 +2,7 @@
 
 Unsupervised clustering of retail customers using spending behaviour, income, and purchase patterns.
 
-The notebook groups **1,500 customers** into **4 segments**, compares KMeans with hierarchical clustering, and scores a new customer in real time.
+The notebook groups **1,500 customers** into **4 segments**, compares K-Means with hierarchical clustering, and scores a new customer in real time.
 
 **Notebook:** [Customer_segment.ipynb](Customer_segment.ipynb)
 
@@ -14,7 +14,7 @@ The notebook groups **1,500 customers** into **4 segments**, compares KMeans wit
 4. Scales numeric columns with `StandardScaler`
 5. Encodes `Gender` and `PreferredCategory`
 6. Chooses `k = 4` with the elbow method and silhouette scores
-7. Fits **KMeans** and **Agglomerative Clustering**
+7. Fits **K-Means** and **Agglomerative Clustering**
 8. Interprets each cluster and writes marketing recommendations
 9. Saves `kmeans_model.pkl`, `scaler.pkl`, and `label_encoders.pkl`
 10. Scores an example new customer
